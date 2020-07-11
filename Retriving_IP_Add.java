@@ -4,7 +4,7 @@ import java.net.*;
 
 public class Retriving_IP_Add {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         InetAddress ob;
         ob = new InetAddress.getByName("www.google.com");
         System.out.println(ob.getHostAddress());
